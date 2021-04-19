@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d5e854ec25cf43b4b4437a62134f2601" Name="Diagram1" ZoomLevel="94" >
+        <EntityTypeShape EntityType="SisVenta.Proveedor" Width="1.5" PointX="5" PointY="0.75" />
+        <EntityTypeShape EntityType="SisVenta.Compra" Width="1.5" PointX="5" PointY="3.75" />
+        <AssociationConnector Association="SisVenta.ProveedorCompra" />
+        <EntityTypeShape EntityType="SisVenta.Producto" Width="1.5" PointX="7.375" PointY="6.75" />
+        <EntityTypeShape EntityType="SisVenta.DetalleCompra" Width="1.5" PointX="5" PointY="6.75" />
+        <AssociationConnector Association="SisVenta.CompraDetalleCompra" />
+        <AssociationConnector Association="SisVenta.ProductoDetalleCompra" />
+        <EntityTypeShape EntityType="SisVenta.Categoria" Width="1.5" PointX="9.75" PointY="6.75" />
+        <AssociationConnector Association="SisVenta.CategoriaProducto" />
+        <EntityTypeShape EntityType="SisVenta.Cliente" Width="1.5" PointX="12" PointY="3.75" />
+        <EntityTypeShape EntityType="SisVenta.Venta" Width="1.5" PointX="9.75" PointY="3.75" />
+        <AssociationConnector Association="SisVenta.ClienteVenta" />
+        <EntityTypeShape EntityType="SisVenta.DetalleVenta" Width="1.5" PointX="7.375" PointY="3.875" />
+        <AssociationConnector Association="SisVenta.VentaDetalleVenta" />
+        <AssociationConnector Association="SisVenta.ProductoDetalleVenta" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
